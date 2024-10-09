@@ -1,4 +1,4 @@
-# myproga
+# myNotesApp
 https://nuri12c.github.io/myNotesApp/
 ## Project setup
 ```
