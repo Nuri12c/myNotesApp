@@ -1,5 +1,5 @@
-# myproga
-https://nuri12c.github.io/myproga/
+# myNotesApp
+https://nuri12c.github.io/myNotesApp/
 ## Project setup
 ```
 npm install
