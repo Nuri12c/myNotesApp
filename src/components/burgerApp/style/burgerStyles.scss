@@ -1,0 +1,21 @@
+.burger__card {
+  padding: 10%;
+  color: rgb(65, 110, 150);
+  height: 90vh;
+  width: 90vw;
+}
+.burger__content {
+  margin-top: 10%;
+  line-height: 1.5rem;
+  padding: 10px;
+}
+.img {
+  position: fixed;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  top: 30%;
+  background: url('./../assets/drive.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+}

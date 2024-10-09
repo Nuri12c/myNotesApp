@@ -1,0 +1,86 @@
+$primary-color: #fda4a4;
+.detector {
+  min-width: 15px;
+  height: 15px;
+  margin-bottom: auto;
+  background-color: #f78d66;
+  border: 1px solid #1d7ca2;
+  border-radius: 50%;
+
+}
+.content {
+  width: 100%;
+  text-align: center;
+}
+
+.combs__container {
+  padding-top: 5%;
+  margin-top: 5%;
+
+  padding-bottom: 15%;
+  height: 85%; /* 100% of viewport height */
+  position: relative;
+  min-width: 100vw; /* 100% of viewport width */
+  margin-left: 2%; /* 2% of viewport width */
+  overflow: scroll;
+}
+
+.hexagon {
+  width: 20.065vw; /* 16.5% + 10% + 10% = 20.065% of viewport width */
+  height: 20.065vw; /* 16.5% + 10% + 10% = 20.065% of viewport width */
+  border: 5.99vw solid; /* 4.95% + 10% + 10% = 5.99% of viewport width */
+}
+
+.hexagon_zero {
+  width: 0;
+  height: 0;
+}
+
+.hexagon_triangle_up {
+  border-top-width: 0;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+
+.hexagon_triangle_up_large {
+  border-left-width: 10.4vw; /* 8.58% + 10% + 10% = 10.4% of viewport width */
+  border-right-width: 10.4vw; /* 8.58% + 10% + 10% = 10.4% of viewport width */
+}
+
+.hexagon_triangle_down {
+  border-bottom-width: 0;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+
+.hexagon_triangle_down_large {
+  border-left-width: 10.4vw; /* 8.58% + 10% + 10% = 10.4% of viewport width */
+  border-right-width: 10.4vw; /* 8.58% + 10% + 10% = 10.4% of viewport width */
+}
+
+.inside {
+  width: 20.8636vw; /* 17.16% + 10% + 10% = 20.8636% of viewport width */
+  height: 12.079vw; /* 9.9% + 10% + 10% = 12.079% of viewport width */
+  display: flex;
+  font-size: 0.8rem;
+  align-items: center;
+}
+
+.hexa {
+  float: left;
+  margin: 0 0.3vw; /* 0.495% + 10% + 10% = 0.6% of viewport width */
+}
+
+.row {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left_padding {
+  padding-left: 10.6vw; /* 8.69% + 10% + 10% = 10.5149% of viewport width */
+}
+
+.top_margin {
+  margin-top: -5.59vw; /* -4.62% + 10% + 10% = -5.59% of viewport width */
+}
